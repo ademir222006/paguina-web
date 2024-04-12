@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-       <title>tablas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="deslisable/estilo.css">
+	<script type="text/javascript" src="deslisable/funciones.js"></script>
+	<title>DESLIZABLE</title>
 </head>
-<style>
-        table, th, td{
-        border: 5px solid red;
-        border-collapse: collapse;
-}
-</style>
 <body>
-        <table style="width: 100%;">
-                <tr>
-                      <th>nombre</th>
-                      <th>apellidos</th>
-                      <th>correo</th>
 
-                </tr>
-                <tr>
-                        <td>ademir</td>
-                        <td>ulloa</td>
-                        <td>ulloaademir3@gmail.com</td>
-                </tr>
-                <tr>
-                        <td colspan="2">ademir ulloa</td>
-                       
-                        <td>ulloaademir3@gmail.com</td>
-                </tr>
-                <tr>
-                        <td>ademir</td>
-                        <td>ulloa</td>
-                        <td><img src="ad2.jpg" height="200px" width="200px"> </td>
-                </tr>
-        </table>
-<body>
-<img src="ad2.jpg">    
+	<section class="section">
+		<div class="slider">
+			<div class="slide">
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+
+				<div class="st first">
+					<img src="img/a3.jpg">
+				</div>
+				<div class="st ">
+					<img src="img/ad.jpg">
+				</div>
+				<div class="st ">
+					<img src="img/ad2.jpg">
+				</div>
+				<div class="st ">
+					<img src="img/go.jpg">
+				</div>
+
+				<div class="nav-auto">
+					<div class="a-b1"></div>
+					<div class="a-b2"></div>
+					<div class="a-b3"></div>
+					<div class="a-b4"></div>
+				</div>
+			</div>
+			<div class="nav-m">
+				<label for="radio1" class="m-btn"></label>
+				<label for="radio2" class="m-btn"></label>
+				<label for="radio3" class="m-btn"></label>
+				<label for="radio4" class="m-btn"></label>
+			</div>
+		</div>
+		</div>
+	</section>
 
 </body>
+</html>
 </html>
